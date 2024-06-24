@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" styleClass="root" stylesheets="@loginsignup.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advance_group.LoginSignup">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <AnchorPane layoutX="113.0" layoutY="23.0" prefHeight="574.0" prefWidth="397.0" styleClass="boxbg">
+            <children>
+            <Label alignment="CENTER" layoutX="106.0" layoutY="116.0" prefHeight="41.0" prefWidth="166.0" text="Log In" textAlignment="RIGHT">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+                <Label alignment="CENTER" layoutX="90.0" layoutY="44.0" prefHeight="42.0" prefWidth="217.0" text="HAMRO SURVEY" textAlignment="RIGHT">
+                    <font>
+                        <Font name="Webdings" size="27.0" />
+                    </font></Label>
+                <PasswordField fx:id="getpassword" alignment="CENTER" layoutX="54.0" layoutY="330.0" promptText="Password" styleClass="inputfield" stylesheets="@loginsignup.css">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </PasswordField>
+                <TextField fx:id="getusername" alignment="CENTER" layoutX="54.0" layoutY="264.0" promptText="Username" styleClass="inputfield">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </TextField>
+                <Label alignment="CENTER" layoutX="33.0" layoutY="506.0" prefHeight="41.0" prefWidth="200.0" text="Don't have an account?" textAlignment="RIGHT">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Button fx:id="usersignup" layoutX="218.0" layoutY="505.0" mnemonicParsing="false" onAction="#getsignup" prefHeight="44.0" prefWidth="109.0" styleClass="pagechangebutton" text="Sign Up">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Button>
+                <Button fx:id="userlogin" layoutX="106.0" layoutY="404.0" mnemonicParsing="false" onAction="#getlogin" prefHeight="31.0" prefWidth="166.0" styleClass="boxbg" text="LOG IN" />
+                <Button fx:id="usercancel" layoutX="106.0" layoutY="460.0" mnemonicParsing="false" onAction="#getcancel" prefHeight="31.0" prefWidth="166.0" styleClass="boxbg" text="CANCEL" />
+            <Label fx:id="displaylogin" alignment="CENTER" layoutX="24.0" layoutY="217.0" prefHeight="41.0" prefWidth="330.0" textAlignment="RIGHT">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="628.0" prefWidth="819.0" styleClass="root" stylesheets="@loginsignup.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advance_group.Result">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <AnchorPane layoutX="62.0" layoutY="32.0" prefHeight="554.0" prefWidth="694.0" styleClass="boxbg">
+            <children>
+                <Label fx:id="displaylsignupmessage" layoutX="130.0" layoutY="112.0" prefHeight="43.0" prefWidth="532.0" text="Name" textAlignment="RIGHT">
+                    <font>
+                        <Font size="29.0" />
+                    </font>
+                </Label>
+                <Label layoutX="294.0" layoutY="32.0" prefHeight="54.0" prefWidth="112.0" text="Result">
+                    <font>
+                        <Font size="37.0" />
+                    </font>
+                </Label>
+                <Label layoutX="130.0" layoutY="187.0" />
+                <Label layoutX="50.0" layoutY="115.0" text="Name: ">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Label>
+                <Label layoutX="385.0" layoutY="168.0">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Label>
+                <Label layoutX="50.0" layoutY="168.0" prefHeight="38.0" prefWidth="145.0" text="Nationality:">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Label>
+                <Label fx:id="displaylsignupmessage1" layoutX="184.0" layoutY="166.0" prefHeight="42.0" prefWidth="488.0" text="XYX" textAlignment="RIGHT">
+                    <font>
+                        <Font size="29.0" />
+                    </font>
+                </Label>
+                <Label fx:id="qustionattempted" alignment="CENTER" layoutX="50.0" layoutY="227.0" prefHeight="82.0" prefWidth="194.0" style="-fx-background-color: dodgerblue; -fx-background-radius: 16px; -fx-border-radius: 16px;" textFill="WHITE">
+                    <font>
+                        <Font size="25.0" />
+                    </font></Label>
+                <ProgressIndicator fx:id="correctProgress" layoutX="278.0" layoutY="227.0" minHeight="100.0" minWidth="100.0" prefHeight="128.0" prefWidth="131.0" progress="1.0" style="-fx-background-color: white; -fx-progress-color: green; -fx-font-weight: 900; -fx-font-size: 16PX; -fx-background-radius: 16PX; -fx-border-radius: 16PX; -fx-box-border: green;">
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                </ProgressIndicator>
+
+                <ProgressIndicator fx:id="wrongProgress" layoutX="414.0" layoutY="227.0" minHeight="100.0" minWidth="100.0" prefHeight="128.0" prefWidth="131.0" progress="0.2" style="-fx-background-color: white; -fx-progress-color: red; -fx-font-weight: 900; -fx-font-size: 16PX; -fx-background-radius: 16PX; -fx-border-radius: 16PX; -fx-box-border: red;">
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                </ProgressIndicator>
+                <Button fx:id="logout" layoutX="542.0" layoutY="441.0" mnemonicParsing="false" onAction="#getlogout" prefHeight="56.0" prefWidth="119.0" styleClass="boxbg" text="Logout" />
+                <Button fx:id="gohome" layoutX="50.0" layoutY="449.0" mnemonicParsing="false" onAction="#gotouseradtionalinfopage" prefHeight="56.0" prefWidth="119.0" styleClass="boxbg" text="Back to User Info">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+                <Label fx:id="displayCitizen" layoutX="32.0" layoutY="362.0" prefHeight="43.0" prefWidth="648.0" text="Congratulations" textAlignment="RIGHT">
+                    <font>
+                        <Font name="FontAwesome" size="20.0" />
+                    </font>
+                </Label>
+
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

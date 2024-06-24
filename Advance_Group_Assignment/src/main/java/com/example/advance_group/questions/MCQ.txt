@@ -1,0 +1,15 @@
+How many times a week on average do you use the internet?,a) Daily, b) Several times a week, c) Once a week, d) Rarely,3
+Which gadget do you use most often to access the internet?,a) Smartphone, b) Laptop, c) Tablet, d) Desktop,2
+How would you rank or rate the speed of your internet connectivity?,a) Very fast, b) Fast, c) Average, d) Slow,2
+How comfortable are you with softwares like Google Suite or Microsoft Office? ,a) Very comfortable, b) Comfortable, c) Somewhat comfortable, d) No any comfort,2
+Which online government service have you used the most?,a) E-passport service, b) Online tax filling, c) Vehicle registration, d) Not used yet,1
+How often do you change the password on online accounts?,a) Regularly, b) Occasionally, c) Rarely, d) Never,1
+What kind of online transactions have you performed frequently?,a) Online shopping, b) E-banking, c) Bill payments, d) Rarely performed,4
+In your opinion, how effective are online learning platforms than traditional learning?,a) More effective, b) Effective equally, c) Less effective, d) Not effective,1
+What areas should be given priority for IT development in Nepal?,a) Expanding internet access, b) Enhancing cybersecurity measures, c)  Encouraging IT startups, d) Improving IT education and training,1
+To what extent do you pay attention to the ability to protect your privacy and security online?,a) Very concerned, b) Somewhat concerned, c) Neutral, d) Not concerned,4
+Has IT policies and regulations been effective in the Nepali context?,a) Very effective, b) Effective, c) Neutral, d) Ineffective,4
+What is the problem that is most related to IT that you face most often?,a) Software bugs and glitches, b) Hardware malfunctions, c) Network connectivity problems, d) Cybersecurity threats,4
+In your experience, what do you think is the greatest difficulty faced with management of IT projects in your organization?,a) Absence of human capital, b) Budget constraints, c) Technological limitations, d) Regulatory hurdles,4
+What more do you wish to see in future developments concerning IT setup in Nepal?,a) Fast internet speed, b) IT services for a cost less, c) Enhanced internet security, d) Increased government support for IT ventures,4
+What degree of training or education have you had on IT?,a) Degree, b) Certificate, c) Selflearning, d) None

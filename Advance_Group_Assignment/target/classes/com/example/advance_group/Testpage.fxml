@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="730.0" prefWidth="1221.0" styleClass="root" stylesheets="@loginsignup.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advance_group.Quizpagecontroller">
+    <Label fx:id="getquestion" alignment="CENTER" layoutX="10.0" layoutY="138.0" prefHeight="188.0" prefWidth="1203.0" text="QUESTION" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="30.0" />
+      </font></Label>
+    <Button fx:id="btnopt1" layoutX="138.0" layoutY="365.0" mnemonicParsing="false" onAction="#option1clicked" prefHeight="94.0" prefWidth="470.0" styleClass="boxbg" text="option 1" textFill="#262222">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+    <Button fx:id="btnopt2" layoutX="607.0" layoutY="365.0" mnemonicParsing="false" onAction="#option2clicked" prefHeight="93.0" prefWidth="469.0" styleClass="boxbg" text="option 2" textFill="#2e2a2a">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+    <Button fx:id="btnopt3" layoutX="138.0" layoutY="468.0" mnemonicParsing="false" onAction="#option3clicked" prefHeight="93.0" prefWidth="469.0" styleClass="boxbg" text="option 3" textFill="#232121">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+    <Button fx:id="btnopt4" layoutX="607.0" layoutY="468.0" mnemonicParsing="false" onAction="#option4clicked" prefHeight="93.0" prefWidth="469.0" styleClass="boxbg" text="option 4" textFill="#181717">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+    <Button fx:id="previusquestion" layoutX="267.0" layoutY="590.0" mnemonicParsing="false" onAction="#getpreviousquestion" prefHeight="62.0" prefWidth="227.0" styleClass="boxbg" text="Previous" textFill="#1b1919" />
+    <Button fx:id="nextquestion" layoutX="721.0" layoutY="590.0" mnemonicParsing="false" onAction="#loadNextQuestion" prefHeight="62.0" prefWidth="227.0" styleClass="boxbg" text="Next Question" textFill="#201e1e" />
+    <Button fx:id="submitbtn" layoutX="494.0" layoutY="590.0" mnemonicParsing="false" onAction="#submitButtonClicked" prefHeight="62.0" prefWidth="227.0" styleClass="boxbg" text="Submit" textFill="#383535" />
+    <Label fx:id="settimer" alignment="CENTER" contentDisplay="CENTER" layoutX="532.0" layoutY="25.0" prefHeight="39.0" prefWidth="150.0" text="4:00" textFill="WHITE">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Label>
+   <Label fx:id="displaymesage" alignment="CENTER" contentDisplay="CENTER" layoutX="239.0" layoutY="71.0" prefHeight="39.0" prefWidth="745.0" textFill="WHITE">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+</AnchorPane>
